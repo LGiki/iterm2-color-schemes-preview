@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
+    "dev": "node scripts/convert.mjs && next dev",
+    "build": "node scripts/convert.mjs && next build",
     "start": "next start",
     "lint": "next lint"
   },
